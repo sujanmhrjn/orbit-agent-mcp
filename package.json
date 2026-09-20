@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-     "ask": "tsx src/agent.ts",
+    "ask": "tsx src/agent.ts",
     "mcp": "tsx src/mcp-server.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "start": "npx @modelcontextprotocol/inspector npx tsx src/mcp-server.ts"
   },
   "keywords": [],
   "author": "",
